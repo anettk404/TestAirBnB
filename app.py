@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="GSA UI Sandbox", layout="wide")
+st.set_page_config(page_title="GenSoccerAnalyzer", page_icon="⚽",layout="wide")
 
 st.write("Aktuelle Primärfarbe:", st.config.get_option("theme.primaryColor"))
 
@@ -8,6 +8,8 @@ st.write("Aktuelle Primärfarbe:", st.config.get_option("theme.primaryColor"))
 geheimnis = st.secrets.get("FAVORITE_TEAM", "Kein Team gefunden")
 
 st.sidebar.info(f"KI-Agent konfiguriert für: {geheimnis}")
+
+
 
 # Sidebar Design
 with st.sidebar:
