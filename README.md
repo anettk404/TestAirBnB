@@ -1,2 +1,2 @@
-# TestAirBnB
-Streamlit app is created
+# Streamlit Sandbox
+Streamlit app is created for another project
