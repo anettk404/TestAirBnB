@@ -4,6 +4,11 @@ st.set_page_config(page_title="GSA UI Sandbox", layout="wide")
 
 st.write("Aktuelle Primärfarbe:", st.config.get_option("theme.primaryColor"))
 
+# Zugriff auf die Secrets
+geheimnis = st.secrets.get("FAVORITE_TEAM", "Kein Team gefunden")
+
+st.sidebar.info(f"KI-Agent konfiguriert für: {geheimnis}")
+
 # Sidebar Design
 with st.sidebar:
     st.title("GSA Prototyp")
@@ -13,5 +18,5 @@ with st.sidebar:
     st.success(f"Ausgewählt: {liga}")
 
 # Hauptbereich
-st.title("Willkommen im UI-Labor")
-st.write("Hier entstehen die Komponenten für den GenSoccerAnalyzer.")
+st.title("Prototyp GenSoccerAnalyzer")
+st.write("Hier entstehen die verschiedenen Komponenten.")

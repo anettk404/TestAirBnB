@@ -1,10 +1,32 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# =================================================================
+# PYTHON & UMGEBUNG
+# =================================================================
+__pycache__/          # Temporäre Python-Speicher
+*.py[cod]             # Kompilierte Dateien
+*.egg-info/           # Paket-Informationen
+build/                # Build-Artefakte
+dist/                 # Distribution-Pakete
 
-# Virtual environments
-.venv
+# Virtuelle Umgebungen (Wichtig für Teamarbeit!)
+.venv/                # Dein lokales uv-Verzeichnis
+uv.lock               # (Optional) Sperrdatei für Abhängigkeiten
+
+# =================================================================
+# STREAMLIT SPEZIFISCH
+# =================================================================
+# Die secrets.toml darf NIEMALS auf GitHub landen (API-Keys!)
+.streamlit/secrets.toml
+
+# Temporäre statische Dateien von Streamlit
+.streamlit/static/
+
+# =================================================================
+# PROJEKTSPEZIFISCHE DATEN & OS
+# =================================================================
+# Verhindert, dass Test-Daten das Repo aufblähen
+data_dummies/
+*.log
+
+# Betriebssystem-Müll (Mac/Windows)
+.DS_Store
+Thumbs.db
