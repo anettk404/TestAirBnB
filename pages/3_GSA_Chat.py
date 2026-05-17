@@ -1,7 +1,7 @@
 # pages/3_GSA_Chat.py
 import streamlit as st
 
-st.title("🤖 GSA AI Chatbot")
+st.title("GSA AI Chatbot")
 st.write("Stellen Sie Ihre Fragen zum europäischen Fußball auf Deutsch.")
 
 # Konversations-Kontext initialisieren (Streamlit-Standard für Chats)

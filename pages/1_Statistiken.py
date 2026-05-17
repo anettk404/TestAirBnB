@@ -3,8 +3,8 @@
 import streamlit as st
 import pandas as pd
 
-st.title("📊 Statistiken & EDA")
-st.write("Hier finden Sie die quantitativen Analysen basierend auf den StatsBomb-Daten.")
+st.title("Statistiken & EDA")
+st.write("Hier finden Sie quantitative Analysen basierend auf StatsBomb-Daten.")
 
 # Beispiel für interaktiven Filter (wird später mit echten Daten befüllt)
 liga = st.selectbox("Wähle eine Liga:", ["Bundesliga", "Premier League", "La Liga"])

@@ -1,7 +1,7 @@
 # pages/2_Clustering.py
 import streamlit as st
 
-st.title("🔍 Wikipedia Document Clustering")
+st.title("Wikipedia Document Clustering")
 st.write("Ergebnisse des Unsupervised Learnings über die Top-Vereine Europas (Stand: 05/2026).")
 
 # Platzhalter für die interaktive Grafik (z.B. Plotly Scatter Plot)

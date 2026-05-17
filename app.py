@@ -8,15 +8,15 @@ st.title("⚽ GenSoccerAnalyzer (GSA)")
 st.subheader("Willkommen beim KI-gestützten Fußball-Analysten")
 
 st.markdown("""
-Dieses System kombiniert klassische NLP-Methoden mit modernster Agentic AI und RAG, 
-um tiefe Einblicke in europäische Top-Ligen zu gewähren.
+Dieses System kombiniert NLP-Methoden mit Agentic AI und RAG, 
+um Einblicke in europäische Top-Fussball-Ligen zu gewähren.
 
-### 🎉 Projekt-Übersicht:
-- **📊 Statistiken & EDA:** Analyse strukturierter StatsBomb-Daten.
-- **🔍 Wikipedia Clustering:** Unüberwachtes Lernen über Vereinsphilosophien.
-- **🤖 GSA AI Chat:** Das Multi-Agenten-System für komplexe, deutschsprachige Abfragen.
+### Projekt-Übersicht:
+- **Statistiken & EDA:** Analyse strukturierter StatsBomb-Daten.
+- **Wikipedia Clustering:** Unüberwachtes Lernen über Vereinsphilosophien.
+- **GSA AI Chat:** Das Multi-Agenten-System für komplexe, deutschsprachige Abfragen.
 
-*Nutzen Sie die Seitenleiste links oder den 'pages'-Ordner, um zwischen den Modulen zu wechseln.*
+*Nutzen Sie die Seitenleiste links, um zwischen den Modulen zu wechseln.*
 """)
 
 st.divider() # Trennlinie zum technischen Test-Bereich
