@@ -4,7 +4,7 @@ import pandas as pd
 # Globale Konfiguration
 st.set_page_config(
     page_title="GenSoccerAnalyzer",
-    page_icon="openclipart-vectors-football-157930.svg",
+    page_icon= "⚽",
     layout="wide"
 )
 
@@ -30,9 +30,9 @@ st.title("GenSoccerAnalyzer (GSA)")
 
 # Hier erstellen wir die drei Reiter oben im Bild
 tab_stats, tab_clustering, tab_chat = st.tabs([
-    "📊 Statistiken & EDA", 
-    "🔍 Wikipedia Clustering", 
-    "🤖 GSA AI Chat"
+    "Statistiken & EDA", 
+    "Wikipedia Clustering", 
+    "GSA AI Chat"
 ])
 
 # ==========================================
