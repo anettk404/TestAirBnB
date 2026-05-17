@@ -30,3 +30,6 @@ data_dummies/
 # Betriebssystem-Müll (Mac/Windows)
 .DS_Store
 Thumbs.db
+
+Files
+app.py
